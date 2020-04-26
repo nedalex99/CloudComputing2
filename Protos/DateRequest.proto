@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option csharp_namespace = "Generated";
+
+message DateRequest
+{
+	string month = 1;
+	string day = 2;
+	string yeaar = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "DateResponse.proto";
+import "DateRequest.proto";
+
+option csharp_namespace = "Generated";
+
+service DateService {
+	rpc Zodiac(DateRequest) returns (DateResponse);
+}
